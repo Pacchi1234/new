@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.675">
+  <properties />
+  
+  
+            <testcase name="getAllStoreCollection" time="2.236" classname="com.ripplestreet.AllGetApis.storesControllerGetApi" />
+                <testcase name="getStoreListByCollectionName" time="1.439" classname="com.ripplestreet.AllGetApis.storesControllerGetApi" />
+      
+</testsuite>

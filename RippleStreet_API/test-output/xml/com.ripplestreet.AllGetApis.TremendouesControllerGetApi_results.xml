@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.354">
+  <properties />
+  
+  
+            <testcase name="getTremendousFundingSources" time="1.747" classname="com.ripplestreet.AllGetApis.TremendouesControllerGetApi" />
+                <testcase name="getTremendousCampaigns" time="1.607" classname="com.ripplestreet.AllGetApis.TremendouesControllerGetApi" />
+      
+</testsuite>

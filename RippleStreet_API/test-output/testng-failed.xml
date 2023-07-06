@@ -5,9 +5,9 @@
     <classes>
       <class name="com.ripplestreet.AllPutApis.NotificationControllerPutApi">
         <methods>
-          <include name="deleteFileUploadByCampaignId"/>
           <include name="BaseURI"/>
           <include name="StatusCode"/>
+          <include name="sendPublishUnpublishNotification"/>
         </methods>
       </class> <!-- com.ripplestreet.AllPutApis.NotificationControllerPutApi -->
     </classes>

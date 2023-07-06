@@ -117,6 +117,10 @@ public class putApiUtilities {
 	public String deliveryItemId=ConfigFileReader.getInstance().getdeliveryItemId();
 	public String rewardItemId=ConfigFileReader.getInstance().getrewardItemId();
 	public String putNotificationId=ConfigFileReader.getInstance().getputNotificationId();
+	public String publishStatus=ConfigFileReader.getInstance().getpublishStatus();
+	public String updateTemplateId=ConfigFileReader.getInstance().getupdateTemplateId();
+	public String isSuppressed=ConfigFileReader.getInstance().getisSuppressed();
+	public String putAssetId=ConfigFileReader.getInstance().getputAssetId();
 	public static Response response;
 	public static int Testcase;
 	public static String PutBody;

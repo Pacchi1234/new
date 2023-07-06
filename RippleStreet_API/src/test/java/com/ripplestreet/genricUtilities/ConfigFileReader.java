@@ -845,6 +845,35 @@ public class ConfigFileReader {
 		else
 			throw new RuntimeException("putNotificationId Is not mentioned in the configuration.properties file");
 	}
+	public String getpublishStatus() {
+		String publishStatus = properties.getProperty("publishStatus");
+		if (publishStatus != null)
+			return publishStatus;
+		else
+			throw new RuntimeException("publishStatus Is not mentioned in the configuration.properties file");
+	}
+	public String getupdateTemplateId() {
+		String updateTemplateId = properties.getProperty("updateTemplateId");
+		if (updateTemplateId != null)
+			return updateTemplateId;
+		else
+			throw new RuntimeException("updateTemplateId Is not mentioned in the configuration.properties file");
+	}
+	public String getisSuppressed() {
+		String isSuppressed = properties.getProperty("isSuppressed");
+		if (isSuppressed != null)
+			return isSuppressed;
+		else
+			throw new RuntimeException("isSuppressed Is not mentioned in the configuration.properties file");
+	}
+	public String getputAssetId() {
+		String putAssetId = properties.getProperty("putAssetId");
+		if (putAssetId != null)
+			return putAssetId;
+		else
+			throw new RuntimeException("putAssetId Is not mentioned in the configuration.properties file");
+	}
+
 
 
 

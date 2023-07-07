@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.594">
+  <properties />
+  
+  
+            <testcase name="GetGameTrackerRedisObjByGameId" time="1.535" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+                <testcase name="getWinningoptionBasedOnTheProbability" time="1.309" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+                <testcase name="getGameBygameId" time="1.427" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+                <testcase name="getAllgames" time="1.323" classname="com.ripplestreet.AllGetApis.GameControllerGetApi" />
+      
+</testsuite>
